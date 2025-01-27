@@ -10,6 +10,8 @@ We build a robust algorithm to identify the benefactors which shows strong perfo
 
 Along with this, the human evaluations of amendments show strong support for the generations being sensible and also showing certain patterns of strategies used.
 
+**Reviewer 875j** has referred an important and relevant previous work [1] which builds a classifier for lobbied bills. In our case, we required a classifier for benefactors of amendment suggestions. Due to immense situational understanding and reasoning capabilities of LLMs, we were able to build a zero-shot strong classifier using the proposed algorithm. 
+
 > The novelty is limited, as iterative feedback loops for LLMs are already a well-studied approach. The authors merely apply it to a legislative “deception” case without deeply expanding the technique itself
 
 We’d like to reiterate that this work does not propose the iterative feedback loop as its novelty and we’ve mentioned that we use this simple and well known method as a tool to uncover the capabilities of LLMs for such subtle deception which has not been explored before. Beyond that, our analysis is focussed only on what supports and hinders these intelligent capabilities in LLMs.
@@ -20,6 +22,11 @@ The detection mechanism requires processing a large bill text and business infor
 Therefore, we currently rely on the robust algorithmic detection which shows strong performance, upto 83% with 72B model and 94% with GPT4 (Appendix A.2). This strong benefactor identification performance supported our decision to continue this study with it.
 
 While our aim of detecting and analysing subtle deception behaviour was verified by 10 in-house AI expert evaluators and authors themselves.
+
+Citations:
+
+[1] [Slobozhan et al. 2020. Which bills are lobbied? Predicting and interpreting lobbying activity in the US](https://arxiv.org/abs/2005.06386)
+
 
 ### R2 (3.5)
 
